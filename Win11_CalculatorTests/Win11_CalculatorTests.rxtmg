@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Win11_CalculatorTests"
+      id="3423b860-aa3e-400a-b5a4-5188412938a4"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Win11_CalculatorTests"
+      id="3423b860-aa3e-400a-b5a4-5188412938a4"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
