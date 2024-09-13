@@ -55,6 +55,12 @@
 			id="c2356286-13d6-4bb9-bf64-9fdecc6f709e"
 			name="UI_Tests">
 			</testcase>
+			<testmodule
+			id="ed085c17-a4d1-4e21-8a03-5bb9aef2d2db"
+			name="NonInteger_tests"
+			ref="ca025505-ece1-413a-980a-939cd7089487"
+			type="UserCode">
+			</testmodule>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -73,6 +79,10 @@
 						<testmodule
 						id="9adbb64e-0fd9-4e39-9252-433cd434a743"
 						name="Minus_tests">
+						</testmodule>
+						<testmodule
+						id="ed085c17-a4d1-4e21-8a03-5bb9aef2d2db"
+						name="NonInteger_tests">
 						</testmodule>
 					</testcase>
 				</testcase>

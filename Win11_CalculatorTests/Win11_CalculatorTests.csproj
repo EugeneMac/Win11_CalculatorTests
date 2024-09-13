@@ -134,6 +134,9 @@
     <Compile Include="Minus_tests.cs">
       <id>23339813-b749-48af-85be-498ec95e2410</id>
     </Compile>
+    <Compile Include="NonInteger_tests.cs">
+      <id>e8d031db-01a3-47de-914d-a734de698613</id>
+    </Compile>
     <Compile Include="Plus_tests.cs">
       <id>cf1b89cf-df65-4dc6-b70c-ac44b16b706e</id>
     </Compile>

@@ -43,24 +43,13 @@ name="Win11_CalculatorTestsRepository">
 				<item
 				addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
 				capname="button"
-				id="cc1f45f0-b968-43fc-8b5b-c4623aa8f3a6"
-				name="Num2Button"
-				refimgid="78022e7c-f98b-453a-aae3-4e562834ca99"
-				refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/element/container/container[@automationid='NumberPad']/button[@automationid='num2Button']"
-				robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='num2Button']"
+				id="ad7b5ac6-527f-43bf-9c9a-70d6acff0d31"
+				name="DecimalSeparatorButton"
+				refimgid="3977d4cd-0224-49b3-92ee-60cb456a88b5"
+				refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/element[@automationid='NavView']/container[@classname='LandmarkTarget']/container[@automationid='NumberPad']/button[@automationid='decimalSeparatorButton']"
+				robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']"
 				searchtimeout="30000ms">
-					/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']/button[@automationid='num2Button']
-				</item>
-				<item
-				addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
-				capname="button"
-				id="b8655b00-6458-4072-8b66-e9e77f663676"
-				name="Num3Button"
-				refimgid="9b9c01e4-34cf-462f-a836-e2cec206d558"
-				refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/element/container/container[@automationid='NumberPad']/button[@automationid='num3Button']"
-				robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='num3Button']"
-				searchtimeout="30000ms">
-					/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']/button[@automationid='num3Button']
+					/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']/button[@automationid='decimalSeparatorButton']
 				</item>
 				<basepath>
 					/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']

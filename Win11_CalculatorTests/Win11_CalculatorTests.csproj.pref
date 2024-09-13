@@ -1,6 +1,6 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="Base.cs" />
+    <Element value="Calculator.cs" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
@@ -8,8 +8,6 @@
     <Element value="Win11_CalculatorTestsRepository.rxrep" />
     <Element value="Win11_CalculatorTests.rxtst" />
     <Element value="Calculator.cs" />
-    <Element value="Plus_tests.cs" />
-    <Element value="Minus_tests.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

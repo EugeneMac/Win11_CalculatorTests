@@ -305,8 +305,7 @@ namespace Win11_CalculatorTests
         public partial class NumberPadFolder : RepoGenBaseFolder
         {
             RepoItemInfo _numnbuttonInfo;
-            RepoItemInfo _num2buttonInfo;
-            RepoItemInfo _num3buttonInfo;
+            RepoItemInfo _decimalseparatorbuttonInfo;
 
             /// <summary>
             /// Creates a new NumberPad  folder.
@@ -315,8 +314,7 @@ namespace Win11_CalculatorTests
                     base("NumberPad", ".//container[@automationid='NumberPad']", parentFolder, 30000, null, false, "b15c4bcb-f085-4775-9bfc-8de45afba405", "")
             {
                 _numnbuttonInfo = new RepoItemInfo(this, "NumNButton", "button[@automationid='num'+$numberN+'Button']", "", 30000, null, "4079cd5a-e111-4e2e-899b-1cff8f7e2674");
-                _num2buttonInfo = new RepoItemInfo(this, "Num2Button", "button[@automationid='num2Button']", "", 30000, null, "cc1f45f0-b968-43fc-8b5b-c4623aa8f3a6");
-                _num3buttonInfo = new RepoItemInfo(this, "Num3Button", "button[@automationid='num3Button']", "", 30000, null, "b8655b00-6458-4072-8b66-e9e77f663676");
+                _decimalseparatorbuttonInfo = new RepoItemInfo(this, "DecimalSeparatorButton", "button[@automationid='decimalSeparatorButton']", "", 30000, null, "ad7b5ac6-527f-43bf-9c9a-70d6acff0d31");
             }
 
             /// <summary>
@@ -368,50 +366,26 @@ namespace Win11_CalculatorTests
             }
 
             /// <summary>
-            /// The Num2Button item.
+            /// The DecimalSeparatorButton item.
             /// </summary>
-            [RepositoryItem("cc1f45f0-b968-43fc-8b5b-c4623aa8f3a6")]
-            public virtual Ranorex.Button Num2Button
+            [RepositoryItem("ad7b5ac6-527f-43bf-9c9a-70d6acff0d31")]
+            public virtual Ranorex.Button DecimalSeparatorButton
             {
                 get
                 {
-                    return _num2buttonInfo.CreateAdapter<Ranorex.Button>(true);
+                    return _decimalseparatorbuttonInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
             /// <summary>
-            /// The Num2Button item info.
+            /// The DecimalSeparatorButton item info.
             /// </summary>
-            [RepositoryItemInfo("cc1f45f0-b968-43fc-8b5b-c4623aa8f3a6")]
-            public virtual RepoItemInfo Num2ButtonInfo
+            [RepositoryItemInfo("ad7b5ac6-527f-43bf-9c9a-70d6acff0d31")]
+            public virtual RepoItemInfo DecimalSeparatorButtonInfo
             {
                 get
                 {
-                    return _num2buttonInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Num3Button item.
-            /// </summary>
-            [RepositoryItem("b8655b00-6458-4072-8b66-e9e77f663676")]
-            public virtual Ranorex.Button Num3Button
-            {
-                get
-                {
-                    return _num3buttonInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Num3Button item info.
-            /// </summary>
-            [RepositoryItemInfo("b8655b00-6458-4072-8b66-e9e77f663676")]
-            public virtual RepoItemInfo Num3ButtonInfo
-            {
-                get
-                {
-                    return _num3buttonInfo;
+                    return _decimalseparatorbuttonInfo;
                 }
             }
         }

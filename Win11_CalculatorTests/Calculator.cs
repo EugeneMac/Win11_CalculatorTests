@@ -32,6 +32,7 @@ namespace Win11_CalculatorTests
 		{
 			foreach (var chr in number)
 			{
+				if (chr.Equals(".") || chr.Equals(",")) clickDecimalSeparator();
 				repo.numberN = chr.ToString();
 				repo.Calculator.NumberPad.NumNButton.Click();
 			}
@@ -65,6 +66,12 @@ namespace Win11_CalculatorTests
 		public Calculator clickNegate()
 		{
 			repo.Calculator.NegateButton.Click();
+			return this;
+		}
+		
+		public Calculator clickDecimalSeparator()
+		{
+			repo.Calculator.NumberPad.DecimalSeparatorButton.Click();
 			return this;
 		}
 	}
