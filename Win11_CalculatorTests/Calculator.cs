@@ -32,7 +32,11 @@ namespace Win11_CalculatorTests
 		{
 			foreach (var chr in number)
 			{
-				if (chr.Equals(".") || chr.Equals(",")) clickDecimalSeparator();
+				if (chr.Equals('.') || chr.Equals(','))
+				{
+					clickDecimalSeparator();
+					continue;
+				}
 				repo.numberN = chr.ToString();
 				repo.Calculator.NumberPad.NumNButton.Click();
 			}
